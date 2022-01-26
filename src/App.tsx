@@ -1,11 +1,11 @@
-import React from 'react';
-import './App.css';
-import Weather from './Weather-fetch/ApiFetch';
+import React from "react";
+import "./App.css";
+import Fetch from "./components/ApiFetch";
 
 function App() {
   return (
     <div className="App">
-      <Weather />
+      <Fetch />
     </div>
   );
 }
